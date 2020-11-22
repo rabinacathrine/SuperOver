@@ -86,6 +86,7 @@ result.style.visibility=""
        team2.runs.length === 6 ? 1 :
        toss;
    }
+    updateRuns();
    console.log( `${toss===1?team1.name:team2.name}BATTING`)
    document.getElementById("strikebutton").textContent= `${toss===1?team1.name:team2.name} BATTING`;
 }
